@@ -165,3 +165,5 @@ it is clicked and it calls the printQuote funtion
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+
+window.setInterval(printQuote, 5000)
